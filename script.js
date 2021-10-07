@@ -5,6 +5,6 @@ function newElement() {
   const u = document.createTextNode(newEntry)
   li.appendChild(u)
 document.getElementById("myUL").appendChild(li)
-document.getElementById("inp").value = "2"
+document.getElementById("inp").value = "Nothing"
 
 }
