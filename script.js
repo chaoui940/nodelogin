@@ -13,7 +13,7 @@ function newElement() {
     let inpvalue = document.getElementById('inp').value
     todos.push(inpvalue)
     // trigger draw event
-    let li = document.createElement ('li')
+    let li = document.createElement('li')
     let newlist = li.appendChild(document.createTextNode(todos))
     inpvalue.appendChild(newlist)
   }
