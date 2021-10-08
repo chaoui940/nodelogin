@@ -8,10 +8,14 @@ function newElement() {
   document.getElementById("inp").value = "Nothing"
   // something like this
   let todos = []
-  function newElement() {
+  
+  function newTodo() {
     let inpvalue = document.getElementById('inp').value
     todos.push(inpvalue)
     // trigger draw event
+    let li = document.createElement ('li')
+    let newlist = li.appendChild(document.createTextNode(todos))
+    inpvalue.appendChild(newlist)
   }
 
 
