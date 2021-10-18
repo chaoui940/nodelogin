@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chaoui940/nodelogin/issues"
   },
-  "homepage": "https://github.com/chaoui940/nodelogin#readme"
+  "homepage": "https://github.com/chaoui940/nodelogin#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
