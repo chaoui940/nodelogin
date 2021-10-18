@@ -1,0 +1,23 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "create npm project",
+  "main": "done",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoui940/nodelogin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaoui940/nodelogin/issues"
+  },
+  "homepage": "https://github.com/chaoui940/nodelogin#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.5.0"
+  }
+}
